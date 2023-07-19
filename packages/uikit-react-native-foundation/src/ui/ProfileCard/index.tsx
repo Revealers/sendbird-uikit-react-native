@@ -31,16 +31,6 @@ const ProfileCard = ({ uri, username, bodyLabel, body, button, containerStyle }:
           {username}
         </Text>
       </View>
-      {button && <View style={styles.messageButtonArea}>{button}</View>}
-      <Divider space={16} />
-      <View style={styles.profileInfoContainer}>
-        <Text body2 color={color.textBodyLabel} style={styles.profileInfoBodyLabel}>
-          {bodyLabel}
-        </Text>
-        <Text body3 numberOfLines={1} color={color.textBody}>
-          {body}
-        </Text>
-      </View>
     </View>
   );
 };

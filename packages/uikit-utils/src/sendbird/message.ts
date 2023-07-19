@@ -124,7 +124,7 @@ export function shouldRenderReaction(channel: SendbirdBaseChannel, reactionEnabl
 
   if (channel.isGroupChannel()) {
     if (channel.isBroadcast) return false;
-    if (channel.isSuper) return false;
+    //if (channel.isSuper) return false;
     if (channel.isEphemeral) return false;
   }
 
