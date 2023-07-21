@@ -1,4 +1,6 @@
 {
+  "name": "revealers",
+  "version": "3.0.4",
   "repository": "git@github.com:Revealers/sendbird-uikit-react-native.git",
   "private": true,
   "workspaces": {
